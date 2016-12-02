@@ -26,6 +26,21 @@
 		AD6C56AA1DF205010018C009 /* CallScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56A91DF205010018C009 /* CallScreenViewController.swift */; };
 		AD6C56AB1DF205010018C009 /* CallScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56A91DF205010018C009 /* CallScreenViewController.swift */; };
 		AD6C56AC1DF205010018C009 /* CallScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56A91DF205010018C009 /* CallScreenViewController.swift */; };
+		AD6C56AE1DF212E50018C009 /* me_and_tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */; };
+		AD6C56AF1DF212E50018C009 /* me_and_tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */; };
+		AD6C56B01DF212E50018C009 /* me_and_tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */; };
+		AD6C56B21DF212ED0018C009 /* pen-point-tip.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56B11DF212ED0018C009 /* pen-point-tip.png */; };
+		AD6C56B31DF212ED0018C009 /* pen-point-tip.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56B11DF212ED0018C009 /* pen-point-tip.png */; };
+		AD6C56B41DF212ED0018C009 /* pen-point-tip.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56B11DF212ED0018C009 /* pen-point-tip.png */; };
+		AD6C56B61DF213410018C009 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56B51DF213410018C009 /* ProfileViewController.swift */; };
+		AD6C56B71DF213410018C009 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56B51DF213410018C009 /* ProfileViewController.swift */; };
+		AD6C56B81DF213410018C009 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56B51DF213410018C009 /* ProfileViewController.swift */; };
+		AD6C56BA1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */; };
+		AD6C56BB1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */; };
+		AD6C56BC1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */; };
+		AD6C56BE1DF217240018C009 /* hangup.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56BD1DF217240018C009 /* hangup.png */; };
+		AD6C56BF1DF217240018C009 /* hangup.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56BD1DF217240018C009 /* hangup.png */; };
+		AD6C56C01DF217240018C009 /* hangup.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56BD1DF217240018C009 /* hangup.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +78,11 @@
 		AD6C56A11DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brian_cs147_as_a_kid_cropped.jpg; sourceTree = "<group>"; };
 		AD6C56A51DF203CF0018C009 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
 		AD6C56A91DF205010018C009 /* CallScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallScreenViewController.swift; sourceTree = "<group>"; };
+		AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me_and_tiger.jpg; sourceTree = "<group>"; };
+		AD6C56B11DF212ED0018C009 /* pen-point-tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pen-point-tip.png"; sourceTree = "<group>"; };
+		AD6C56B51DF213410018C009 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousConnectionsViewController.swift; sourceTree = "<group>"; };
+		AD6C56BD1DF217240018C009 /* hangup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangup.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +135,9 @@
 			children = (
 				AD56A0891DDFBA5E00853062 /* AppDelegate.swift */,
 				AD56A08B1DDFBA5E00853062 /* ViewController.swift */,
+				AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */,
+				AD6C56B11DF212ED0018C009 /* pen-point-tip.png */,
+				AD6C56BD1DF217240018C009 /* hangup.png */,
 				AD6C56A51DF203CF0018C009 /* iphone.png */,
 				AD56A08D1DDFBA5E00853062 /* Main.storyboard */,
 				AD6C56A11DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg */,
@@ -123,6 +146,8 @@
 				AD56A0951DDFBA5E00853062 /* Info.plist */,
 				AD6C569D1DF1C53F0018C009 /* MatchProfileViewController.swift */,
 				AD6C56A91DF205010018C009 /* CallScreenViewController.swift */,
+				AD6C56B51DF213410018C009 /* ProfileViewController.swift */,
+				AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -249,10 +274,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6C56BE1DF217240018C009 /* hangup.png in Resources */,
 				AD6C56A21DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */,
+				AD6C56AE1DF212E50018C009 /* me_and_tiger.jpg in Resources */,
 				AD56A0941DDFBA5E00853062 /* LaunchScreen.storyboard in Resources */,
 				AD6C56A61DF203CF0018C009 /* iphone.png in Resources */,
 				AD56A0911DDFBA5E00853062 /* Assets.xcassets in Resources */,
+				AD6C56B21DF212ED0018C009 /* pen-point-tip.png in Resources */,
 				AD56A08F1DDFBA5E00853062 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +289,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6C56B31DF212ED0018C009 /* pen-point-tip.png in Resources */,
 				AD6C56A71DF203CF0018C009 /* iphone.png in Resources */,
+				AD6C56BF1DF217240018C009 /* hangup.png in Resources */,
+				AD6C56AF1DF212E50018C009 /* me_and_tiger.jpg in Resources */,
 				AD6C56A31DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +301,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6C56B41DF212ED0018C009 /* pen-point-tip.png in Resources */,
 				AD6C56A81DF203CF0018C009 /* iphone.png in Resources */,
+				AD6C56C01DF217240018C009 /* hangup.png in Resources */,
+				AD6C56B01DF212E50018C009 /* me_and_tiger.jpg in Resources */,
 				AD6C56A41DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,8 +318,10 @@
 			files = (
 				AD6C56AA1DF205010018C009 /* CallScreenViewController.swift in Sources */,
 				AD6C569E1DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */,
+				AD6C56B61DF213410018C009 /* ProfileViewController.swift in Sources */,
 				AD56A08C1DDFBA5E00853062 /* ViewController.swift in Sources */,
 				AD56A08A1DDFBA5E00853062 /* AppDelegate.swift in Sources */,
+				AD6C56BA1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +331,9 @@
 			files = (
 				AD6C569F1DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */,
 				AD56A09F1DDFBA5E00853062 /* TestTests.swift in Sources */,
+				AD6C56B71DF213410018C009 /* ProfileViewController.swift in Sources */,
 				AD6C56AB1DF205010018C009 /* CallScreenViewController.swift in Sources */,
+				AD6C56BB1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +343,9 @@
 			files = (
 				AD6C56A01DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */,
 				AD56A0AA1DDFBA5E00853062 /* TestUITests.swift in Sources */,
+				AD6C56B81DF213410018C009 /* ProfileViewController.swift in Sources */,
 				AD6C56AC1DF205010018C009 /* CallScreenViewController.swift in Sources */,
+				AD6C56BC1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
