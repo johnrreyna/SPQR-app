@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD45AF8E1DF6FDEC0050338B /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45AF8D1DF6FDEC0050338B /* TextViewController.swift */; };
 		AD56A08A1DDFBA5E00853062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A0891DDFBA5E00853062 /* AppDelegate.swift */; };
 		AD56A08C1DDFBA5E00853062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A08B1DDFBA5E00853062 /* ViewController.swift */; };
 		AD56A08F1DDFBA5E00853062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD56A08D1DDFBA5E00853062 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		AD56A0941DDFBA5E00853062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD56A0921DDFBA5E00853062 /* LaunchScreen.storyboard */; };
 		AD56A09F1DDFBA5E00853062 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A09E1DDFBA5E00853062 /* TestTests.swift */; };
 		AD56A0AA1DDFBA5E00853062 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A0A91DDFBA5E00853062 /* TestUITests.swift */; };
+		AD638D071DF7036700507F31 /* bubble-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = AD638D061DF7036700507F31 /* bubble-chat.png */; };
+		AD638D081DF7036700507F31 /* bubble-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = AD638D061DF7036700507F31 /* bubble-chat.png */; };
+		AD638D091DF7036700507F31 /* bubble-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = AD638D061DF7036700507F31 /* bubble-chat.png */; };
+		AD638D0B1DF704CD00507F31 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = AD638D0A1DF704CD00507F31 /* home.png */; };
+		AD638D0C1DF704CD00507F31 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = AD638D0A1DF704CD00507F31 /* home.png */; };
+		AD638D0D1DF704CD00507F31 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = AD638D0A1DF704CD00507F31 /* home.png */; };
 		AD6C569E1DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C569D1DF1C53F0018C009 /* MatchProfileViewController.swift */; };
 		AD6C569F1DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C569D1DF1C53F0018C009 /* MatchProfileViewController.swift */; };
 		AD6C56A01DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C569D1DF1C53F0018C009 /* MatchProfileViewController.swift */; };
@@ -61,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD45AF8D1DF6FDEC0050338B /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		AD56A0861DDFBA5E00853062 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD56A0891DDFBA5E00853062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD56A08B1DDFBA5E00853062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +82,8 @@
 		AD56A0A51DDFBA5E00853062 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD56A0A91DDFBA5E00853062 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		AD56A0AB1DDFBA5E00853062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD638D061DF7036700507F31 /* bubble-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble-chat.png"; sourceTree = "<group>"; };
+		AD638D0A1DF704CD00507F31 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		AD6C569D1DF1C53F0018C009 /* MatchProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchProfileViewController.swift; sourceTree = "<group>"; };
 		AD6C56A11DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brian_cs147_as_a_kid_cropped.jpg; sourceTree = "<group>"; };
 		AD6C56A51DF203CF0018C009 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
@@ -133,6 +143,8 @@
 		AD56A0881DDFBA5E00853062 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				AD638D0A1DF704CD00507F31 /* home.png */,
+				AD638D061DF7036700507F31 /* bubble-chat.png */,
 				AD56A0891DDFBA5E00853062 /* AppDelegate.swift */,
 				AD56A08B1DDFBA5E00853062 /* ViewController.swift */,
 				AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */,
@@ -148,6 +160,7 @@
 				AD6C56A91DF205010018C009 /* CallScreenViewController.swift */,
 				AD6C56B51DF213410018C009 /* ProfileViewController.swift */,
 				AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */,
+				AD45AF8D1DF6FDEC0050338B /* TextViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -277,8 +290,10 @@
 				AD6C56BE1DF217240018C009 /* hangup.png in Resources */,
 				AD6C56A21DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */,
 				AD6C56AE1DF212E50018C009 /* me_and_tiger.jpg in Resources */,
+				AD638D071DF7036700507F31 /* bubble-chat.png in Resources */,
 				AD56A0941DDFBA5E00853062 /* LaunchScreen.storyboard in Resources */,
 				AD6C56A61DF203CF0018C009 /* iphone.png in Resources */,
+				AD638D0B1DF704CD00507F31 /* home.png in Resources */,
 				AD56A0911DDFBA5E00853062 /* Assets.xcassets in Resources */,
 				AD6C56B21DF212ED0018C009 /* pen-point-tip.png in Resources */,
 				AD56A08F1DDFBA5E00853062 /* Main.storyboard in Resources */,
@@ -291,7 +306,9 @@
 			files = (
 				AD6C56B31DF212ED0018C009 /* pen-point-tip.png in Resources */,
 				AD6C56A71DF203CF0018C009 /* iphone.png in Resources */,
+				AD638D0C1DF704CD00507F31 /* home.png in Resources */,
 				AD6C56BF1DF217240018C009 /* hangup.png in Resources */,
+				AD638D081DF7036700507F31 /* bubble-chat.png in Resources */,
 				AD6C56AF1DF212E50018C009 /* me_and_tiger.jpg in Resources */,
 				AD6C56A31DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */,
 			);
@@ -303,7 +320,9 @@
 			files = (
 				AD6C56B41DF212ED0018C009 /* pen-point-tip.png in Resources */,
 				AD6C56A81DF203CF0018C009 /* iphone.png in Resources */,
+				AD638D0D1DF704CD00507F31 /* home.png in Resources */,
 				AD6C56C01DF217240018C009 /* hangup.png in Resources */,
+				AD638D091DF7036700507F31 /* bubble-chat.png in Resources */,
 				AD6C56B01DF212E50018C009 /* me_and_tiger.jpg in Resources */,
 				AD6C56A41DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */,
 			);
@@ -321,6 +340,7 @@
 				AD6C56B61DF213410018C009 /* ProfileViewController.swift in Sources */,
 				AD56A08C1DDFBA5E00853062 /* ViewController.swift in Sources */,
 				AD56A08A1DDFBA5E00853062 /* AppDelegate.swift in Sources */,
+				AD45AF8E1DF6FDEC0050338B /* TextViewController.swift in Sources */,
 				AD6C56BA1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
