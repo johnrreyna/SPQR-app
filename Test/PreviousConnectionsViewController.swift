@@ -11,4 +11,7 @@ import UIKit
 
 class PreviousConnectionsViewController: UIViewController {
     
+    @IBOutlet weak var toProfileButton: UIButton!
+    
+    @IBOutlet weak var toMatchProfileButton: UIButton!
 }

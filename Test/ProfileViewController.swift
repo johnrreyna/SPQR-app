@@ -10,7 +10,19 @@ import Foundation
 import UIKit
 
 class ProfileViewController: UIViewController {
-
+    
+    @IBOutlet weak var profPicImageView: UIImageView!
+    @IBOutlet weak var toMatchesButton: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+    @IBAction func performSegue(sender: AnyObject) {
+        self.performSegueWithIdentifier("customSegue", sender: self)
+    }
+    
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = true
         

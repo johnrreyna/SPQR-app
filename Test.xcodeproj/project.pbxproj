@@ -48,6 +48,9 @@
 		AD6C56BE1DF217240018C009 /* hangup.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56BD1DF217240018C009 /* hangup.png */; };
 		AD6C56BF1DF217240018C009 /* hangup.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56BD1DF217240018C009 /* hangup.png */; };
 		AD6C56C01DF217240018C009 /* hangup.png in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56BD1DF217240018C009 /* hangup.png */; };
+		AD9D08671DF7F53E00284123 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9D08661DF7F53E00284123 /* CustomSegue.swift */; };
+		AD9D08681DF7F53E00284123 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9D08661DF7F53E00284123 /* CustomSegue.swift */; };
+		AD9D08691DF7F53E00284123 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9D08661DF7F53E00284123 /* CustomSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +96,7 @@
 		AD6C56B51DF213410018C009 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousConnectionsViewController.swift; sourceTree = "<group>"; };
 		AD6C56BD1DF217240018C009 /* hangup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangup.png; sourceTree = "<group>"; };
+		AD9D08661DF7F53E00284123 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,16 +147,11 @@
 		AD56A0881DDFBA5E00853062 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				AD638D0A1DF704CD00507F31 /* home.png */,
-				AD638D061DF7036700507F31 /* bubble-chat.png */,
+				AD9D08651DF7F35200284123 /* Images */,
 				AD56A0891DDFBA5E00853062 /* AppDelegate.swift */,
+				AD9D08661DF7F53E00284123 /* CustomSegue.swift */,
 				AD56A08B1DDFBA5E00853062 /* ViewController.swift */,
-				AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */,
-				AD6C56B11DF212ED0018C009 /* pen-point-tip.png */,
-				AD6C56BD1DF217240018C009 /* hangup.png */,
-				AD6C56A51DF203CF0018C009 /* iphone.png */,
 				AD56A08D1DDFBA5E00853062 /* Main.storyboard */,
-				AD6C56A11DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg */,
 				AD56A0901DDFBA5E00853062 /* Assets.xcassets */,
 				AD56A0921DDFBA5E00853062 /* LaunchScreen.storyboard */,
 				AD56A0951DDFBA5E00853062 /* Info.plist */,
@@ -181,6 +180,20 @@
 				AD56A0AB1DDFBA5E00853062 /* Info.plist */,
 			);
 			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		AD9D08651DF7F35200284123 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AD638D0A1DF704CD00507F31 /* home.png */,
+				AD638D061DF7036700507F31 /* bubble-chat.png */,
+				AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */,
+				AD6C56B11DF212ED0018C009 /* pen-point-tip.png */,
+				AD6C56BD1DF217240018C009 /* hangup.png */,
+				AD6C56A51DF203CF0018C009 /* iphone.png */,
+				AD6C56A11DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +354,7 @@
 				AD56A08C1DDFBA5E00853062 /* ViewController.swift in Sources */,
 				AD56A08A1DDFBA5E00853062 /* AppDelegate.swift in Sources */,
 				AD45AF8E1DF6FDEC0050338B /* TextViewController.swift in Sources */,
+				AD9D08671DF7F53E00284123 /* CustomSegue.swift in Sources */,
 				AD6C56BA1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +366,7 @@
 				AD6C569F1DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */,
 				AD56A09F1DDFBA5E00853062 /* TestTests.swift in Sources */,
 				AD6C56B71DF213410018C009 /* ProfileViewController.swift in Sources */,
+				AD9D08681DF7F53E00284123 /* CustomSegue.swift in Sources */,
 				AD6C56AB1DF205010018C009 /* CallScreenViewController.swift in Sources */,
 				AD6C56BB1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */,
 			);
@@ -364,6 +379,7 @@
 				AD6C56A01DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */,
 				AD56A0AA1DDFBA5E00853062 /* TestUITests.swift in Sources */,
 				AD6C56B81DF213410018C009 /* ProfileViewController.swift in Sources */,
+				AD9D08691DF7F53E00284123 /* CustomSegue.swift in Sources */,
 				AD6C56AC1DF205010018C009 /* CallScreenViewController.swift in Sources */,
 				AD6C56BC1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */,
 			);
