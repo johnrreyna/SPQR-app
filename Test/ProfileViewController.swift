@@ -13,10 +13,12 @@ class ProfileViewController: UIViewController {
     
     @IBOutlet weak var profPicImageView: UIImageView!
     @IBOutlet weak var toMatchesButton: UIButton!
+    @IBOutlet weak var interestScrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        interestScrollView.contentSize.height = 250;
     }
     
     @IBAction func performSegue(sender: AnyObject) {
