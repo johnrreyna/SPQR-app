@@ -12,10 +12,16 @@ import UIKit
 class ProfileViewController: UIViewController, UIViewControllerTransitioningDelegate {
     
     // subclass specific stuff ---------------------------------------------------------
+    @IBOutlet weak var enterAppButton: UIButton!
+    @IBOutlet weak var logo: UIImageView!
+    @IBOutlet weak var splashMask: UIView!
     @IBOutlet weak var profPicImageView: UIImageView!
+    @IBOutlet weak var findPeopleButton: UIButton!
     @IBOutlet weak var toMatchesButton: UIButton!
     @IBOutlet weak var interestScrollView: UIScrollView!
     @IBOutlet weak var userNameLabel: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,10 +34,19 @@ class ProfileViewController: UIViewController, UIViewControllerTransitioningDele
                 self.navigationController!.popToViewController(aViewController, animated: false);
             }
         }
+        
+        toMatchesButton.alpha = 0.0
+        findPeopleButton.alpha = 0.0
     }
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = true
+    }
+    
+    @IBAction func vanishSplashScreen(_ sender: Any) {
+        splashMask.alpha = 0.0;
+        toMatchesButton.alpha = 1.0
+        findPeopleButton.alpha = 1.0
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

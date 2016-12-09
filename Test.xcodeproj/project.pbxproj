@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2538931DFB42B700C622B7 /* spqr-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2538921DFB42B700C622B7 /* spqr-logo.png */; };
+		AD2538941DFB42B700C622B7 /* spqr-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2538921DFB42B700C622B7 /* spqr-logo.png */; };
+		AD2538951DFB42B700C622B7 /* spqr-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AD2538921DFB42B700C622B7 /* spqr-logo.png */; };
 		AD45AF8E1DF6FDEC0050338B /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45AF8D1DF6FDEC0050338B /* TextViewController.swift */; };
 		AD56A08A1DDFBA5E00853062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A0891DDFBA5E00853062 /* AppDelegate.swift */; };
 		AD56A08C1DDFBA5E00853062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56A08B1DDFBA5E00853062 /* ViewController.swift */; };
@@ -175,6 +178,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD2538921DFB42B700C622B7 /* spqr-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "spqr-logo.png"; path = "IconImages/spqr-logo.png"; sourceTree = "<group>"; };
 		AD45AF8D1DF6FDEC0050338B /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		AD56A0861DDFBA5E00853062 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD56A0891DDFBA5E00853062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -334,6 +338,7 @@
 				ADFA4ADC1DF9A4660069DCFD /* map_pic.PNG */,
 				ADFA4AE41DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg */,
 				ADCB03CB1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg */,
+				AD2538921DFB42B700C622B7 /* spqr-logo.png */,
 				AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */,
 			);
 			name = Images;
@@ -526,6 +531,7 @@
 				ADFA4A961DF97D680069DCFD /* suggestion_box_blue.png in Resources */,
 				ADFA4AB51DF986400069DCFD /* edit_white.png in Resources */,
 				AD56A0911DDFBA5E00853062 /* Assets.xcassets in Resources */,
+				AD2538931DFB42B700C622B7 /* spqr-logo.png in Resources */,
 				AD56A08F1DDFBA5E00853062 /* Main.storyboard in Resources */,
 				ADFA4A7E1DF97D680069DCFD /* headphone.png in Resources */,
 				ADFA4AD91DF9A2310069DCFD /* circle_dark_blue.png in Resources */,
@@ -557,6 +563,7 @@
 				ADFA4AC21DF98B2B0069DCFD /* xwing_black.png in Resources */,
 				ADFA4AB61DF986400069DCFD /* edit_white.png in Resources */,
 				ADFA4ABE1DF988600069DCFD /* home_blue.png in Resources */,
+				AD2538941DFB42B700C622B7 /* spqr-logo.png in Resources */,
 				AD72E6711DFA7E8D00B258DD /* send_text_white_on_black.png in Resources */,
 				ADFA4A731DF97D680069DCFD /* circle.png in Resources */,
 				ADFA4A881DF97D680069DCFD /* pen-point-tip.png in Resources */,
@@ -603,6 +610,7 @@
 				ADFA4AC31DF98B2B0069DCFD /* xwing_black.png in Resources */,
 				ADFA4AB71DF986400069DCFD /* edit_white.png in Resources */,
 				ADFA4ABF1DF988600069DCFD /* home_blue.png in Resources */,
+				AD2538951DFB42B700C622B7 /* spqr-logo.png in Resources */,
 				AD72E6721DFA7E8D00B258DD /* send_text_white_on_black.png in Resources */,
 				ADFA4A741DF97D680069DCFD /* circle.png in Resources */,
 				ADFA4A891DF97D680069DCFD /* pen-point-tip.png in Resources */,
