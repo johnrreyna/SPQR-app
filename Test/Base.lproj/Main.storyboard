@@ -34,7 +34,7 @@
                     <navigationItem key="navigationItem" id="iht-Kj-oSY">
                         <barButtonItem key="rightBarButtonItem" title="Go to another page!" id="seQ-gF-gQD">
                             <connections>
-                                <segue destination="weS-kf-umC" kind="show" id="fu5-rP-HFL"/>
+                                <segue destination="d72-O1-6az" kind="show" id="Sxg-bD-b5L"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -48,6 +48,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1138.5" y="348.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DWi-4y-vRS">
+            <objects>
+                <viewController id="d72-O1-6az" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8nW-72-e5o"/>
+                        <viewControllerLayoutGuide type="bottom" id="VI6-O0-wAS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PG3-Lw-LO6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-12-08 at 9.40.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q98-K1-fGG">
+                                <rect key="frame" x="-28" y="92" width="430" height="483"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03m-p9-HSz">
+                                <rect key="frame" x="153" y="296" width="69" height="75"/>
+                                <state key="normal" title="Button" image="687474703a2f2f7777772e323730746f77696e2e636f6d2f656c65637465642d6f6666696369616c732f696d67732f67656f6c6f636174652e706e67.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQH-eM-FbT">
+                                <rect key="frame" x="195" y="254" width="42" height="41"/>
+                                <state key="normal" title="Button" image="686929-point-of-interest_interest_point_venue_spot_place_location_site-512.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XRm-Aa-gMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1590" y="-101"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="b0Z-vT-9Hd">
@@ -100,4 +131,9 @@
             <point key="canvasLocation" x="305" y="357"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="686929-point-of-interest_interest_point_venue_spot_place_location_site-512.png" width="512" height="512"/>
+        <image name="687474703a2f2f7777772e323730746f77696e2e636f6d2f656c65637465642d6f6666696369616c732f696d67732f67656f6c6f636174652e706e67.png" width="512" height="512"/>
+        <image name="Screen Shot 2016-12-08 at 9.40.46 PM.png" width="321" height="462"/>
+    </resources>
 </document>
