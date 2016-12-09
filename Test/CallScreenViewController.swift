@@ -15,16 +15,16 @@ class CallScreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        UIApplication.shared.statusBarStyle = .lightContent
         
         suggestedPhrasesScrollView.contentSize.height = 350;
         
     }
     
-    override func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
-        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.Default
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.default
         
     }
 }

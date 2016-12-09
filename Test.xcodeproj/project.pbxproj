@@ -18,9 +18,6 @@
 		AD6C569E1DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C569D1DF1C53F0018C009 /* MatchProfileViewController.swift */; };
 		AD6C569F1DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C569D1DF1C53F0018C009 /* MatchProfileViewController.swift */; };
 		AD6C56A01DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C569D1DF1C53F0018C009 /* MatchProfileViewController.swift */; };
-		AD6C56A21DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56A11DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg */; };
-		AD6C56A31DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56A11DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg */; };
-		AD6C56A41DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD6C56A11DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg */; };
 		AD6C56AA1DF205010018C009 /* CallScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56A91DF205010018C009 /* CallScreenViewController.swift */; };
 		AD6C56AB1DF205010018C009 /* CallScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56A91DF205010018C009 /* CallScreenViewController.swift */; };
 		AD6C56AC1DF205010018C009 /* CallScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56A91DF205010018C009 /* CallScreenViewController.swift */; };
@@ -33,9 +30,18 @@
 		AD6C56BA1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */; };
 		AD6C56BB1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */; };
 		AD6C56BC1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */; };
+		AD72E6701DFA7E8D00B258DD /* send_text_white_on_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72E66F1DFA7E8D00B258DD /* send_text_white_on_black.png */; };
+		AD72E6711DFA7E8D00B258DD /* send_text_white_on_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72E66F1DFA7E8D00B258DD /* send_text_white_on_black.png */; };
+		AD72E6721DFA7E8D00B258DD /* send_text_white_on_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AD72E66F1DFA7E8D00B258DD /* send_text_white_on_black.png */; };
 		AD9D08671DF7F53E00284123 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9D08661DF7F53E00284123 /* CustomSegue.swift */; };
 		AD9D08681DF7F53E00284123 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9D08661DF7F53E00284123 /* CustomSegue.swift */; };
 		AD9D08691DF7F53E00284123 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9D08661DF7F53E00284123 /* CustomSegue.swift */; };
+		ADCB03CC1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCB03CB1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg */; };
+		ADCB03CD1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCB03CB1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg */; };
+		ADCB03CE1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADCB03CB1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg */; };
+		ADCB03D01DFAD4FD007F26CB /* TransitionAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB03CF1DFAD4FD007F26CB /* TransitionAnimationController.swift */; };
+		ADCB03D11DFAD4FD007F26CB /* TransitionAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB03CF1DFAD4FD007F26CB /* TransitionAnimationController.swift */; };
+		ADCB03D21DFAD4FD007F26CB /* TransitionAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB03CF1DFAD4FD007F26CB /* TransitionAnimationController.swift */; };
 		ADFA4A691DF97D680069DCFD /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFA4A571DF97D680069DCFD /* blueCircle.png */; };
 		ADFA4A6A1DF97D680069DCFD /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFA4A571DF97D680069DCFD /* blueCircle.png */; };
 		ADFA4A6B1DF97D680069DCFD /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFA4A571DF97D680069DCFD /* blueCircle.png */; };
@@ -170,12 +176,14 @@
 		AD56A0A91DDFBA5E00853062 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		AD56A0AB1DDFBA5E00853062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6C569D1DF1C53F0018C009 /* MatchProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchProfileViewController.swift; sourceTree = "<group>"; };
-		AD6C56A11DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brian_cs147_as_a_kid_cropped.jpg; sourceTree = "<group>"; };
 		AD6C56A91DF205010018C009 /* CallScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallScreenViewController.swift; sourceTree = "<group>"; };
 		AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me_and_tiger.jpg; sourceTree = "<group>"; };
 		AD6C56B51DF213410018C009 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousConnectionsViewController.swift; sourceTree = "<group>"; };
+		AD72E66F1DFA7E8D00B258DD /* send_text_white_on_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = send_text_white_on_black.png; path = IconImages/send_text_white_on_black.png; sourceTree = "<group>"; };
 		AD9D08661DF7F53E00284123 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		ADCB03CB1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brian_cs147_as_a_kid_prof_pic.jpg; sourceTree = "<group>"; };
+		ADCB03CF1DFAD4FD007F26CB /* TransitionAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimationController.swift; sourceTree = "<group>"; };
 		ADFA4A571DF97D680069DCFD /* blueCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueCircle.png; path = IconImages/blueCircle.png; sourceTree = "<group>"; };
 		ADFA4A581DF97D680069DCFD /* bubble-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bubble-chat.png"; path = "IconImages/bubble-chat.png"; sourceTree = "<group>"; };
 		ADFA4A591DF97D680069DCFD /* camera-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-photo.png"; path = "IconImages/camera-photo.png"; sourceTree = "<group>"; };
@@ -262,8 +270,6 @@
 				AD9D08651DF7F35200284123 /* Images */,
 				AD56A0891DDFBA5E00853062 /* AppDelegate.swift */,
 				AD9D08661DF7F53E00284123 /* CustomSegue.swift */,
-				ADFA4ADC1DF9A4660069DCFD /* map_pic.PNG */,
-				ADFA4AE41DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg */,
 				AD56A08B1DDFBA5E00853062 /* ViewController.swift */,
 				AD56A08D1DDFBA5E00853062 /* Main.storyboard */,
 				AD56A0901DDFBA5E00853062 /* Assets.xcassets */,
@@ -275,6 +281,7 @@
 				AD6C56B51DF213410018C009 /* ProfileViewController.swift */,
 				AD6C56B91DF215100018C009 /* PreviousConnectionsViewController.swift */,
 				AD45AF8D1DF6FDEC0050338B /* TextViewController.swift */,
+				ADCB03CF1DFAD4FD007F26CB /* TransitionAnimationController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -300,8 +307,10 @@
 		AD9D08651DF7F35200284123 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				ADFA4ADC1DF9A4660069DCFD /* map_pic.PNG */,
+				ADFA4AE41DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg */,
+				ADCB03CB1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg */,
 				AD6C56AD1DF212E50018C009 /* me_and_tiger.jpg */,
-				AD6C56A11DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -323,6 +332,7 @@
 				ADFA4AA01DF9836F0069DCFD /* call_black.png */,
 				ADFA4AC41DF98FA00069DCFD /* laptop_black.png */,
 				ADFA4AA11DF9836F0069DCFD /* call_white.png */,
+				AD72E66F1DFA7E8D00B258DD /* send_text_white_on_black.png */,
 				ADFA4AD41DF99CEA0069DCFD /* translate_blue.png */,
 				ADFA4ACC1DF99BFD0069DCFD /* translate_black.png */,
 				ADFA4ACD1DF99BFD0069DCFD /* translate_white.png */,
@@ -413,13 +423,16 @@
 					AD56A0851DDFBA5E00853062 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 8CZ224C44V;
+						LastSwiftMigration = 0810;
 					};
 					AD56A0991DDFBA5E00853062 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 						TestTargetID = AD56A0851DDFBA5E00853062;
 					};
 					AD56A0A41DDFBA5E00853062 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 						TestTargetID = AD56A0851DDFBA5E00853062;
 					};
 				};
@@ -449,7 +462,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD6C56A21DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */,
 				ADFA4A901DF97D680069DCFD /* speaker_white.png in Resources */,
 				ADFA4ACE1DF99BFD0069DCFD /* translate_black.png in Resources */,
 				ADFA4A691DF97D680069DCFD /* blueCircle.png in Resources */,
@@ -465,6 +477,7 @@
 				ADFA4A7B1DF97D680069DCFD /* hangup.png in Resources */,
 				ADFA4A6F1DF97D680069DCFD /* camera-photo.png in Resources */,
 				ADFA4AE51DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg in Resources */,
+				ADCB03CC1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg in Resources */,
 				ADFA4AC51DF98FA00069DCFD /* laptop_black.png in Resources */,
 				ADFA4A841DF97D680069DCFD /* iphone.png in Resources */,
 				ADFA4ADD1DF9A4660069DCFD /* map_pic.PNG in Resources */,
@@ -475,6 +488,7 @@
 				ADFA4AD51DF99CEA0069DCFD /* translate_blue.png in Resources */,
 				ADFA4A751DF97D680069DCFD /* computer-pc.png in Resources */,
 				ADFA4AC91DF99B090069DCFD /* keypad.png in Resources */,
+				AD72E6701DFA7E8D00B258DD /* send_text_white_on_black.png in Resources */,
 				ADFA4A931DF97D680069DCFD /* suggestion_box_black.png in Resources */,
 				ADFA4ABD1DF988600069DCFD /* home_blue.png in Resources */,
 				ADFA4AB21DF986400069DCFD /* edit_blue.png in Resources */,
@@ -498,6 +512,7 @@
 				ADFA4AE61DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg in Resources */,
 				ADFA4ACF1DF99BFD0069DCFD /* translate_black.png in Resources */,
 				ADFA4AA81DF9836F0069DCFD /* call_white.png in Resources */,
+				ADCB03CD1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg in Resources */,
 				ADFA4A791DF97D680069DCFD /* designer-cup.png in Resources */,
 				ADFA4AB31DF986400069DCFD /* edit_blue.png in Resources */,
 				ADFA4A821DF97D680069DCFD /* home.png in Resources */,
@@ -510,7 +525,7 @@
 				ADFA4AC21DF98B2B0069DCFD /* xwing_black.png in Resources */,
 				ADFA4AB61DF986400069DCFD /* edit_white.png in Resources */,
 				ADFA4ABE1DF988600069DCFD /* home_blue.png in Resources */,
-				AD6C56A31DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */,
+				AD72E6711DFA7E8D00B258DD /* send_text_white_on_black.png in Resources */,
 				ADFA4A731DF97D680069DCFD /* circle.png in Resources */,
 				ADFA4A881DF97D680069DCFD /* pen-point-tip.png in Resources */,
 				ADFA4AA51DF9836F0069DCFD /* call_black.png in Resources */,
@@ -540,6 +555,7 @@
 				ADFA4AE71DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg in Resources */,
 				ADFA4AD01DF99BFD0069DCFD /* translate_black.png in Resources */,
 				ADFA4AA91DF9836F0069DCFD /* call_white.png in Resources */,
+				ADCB03CE1DFAB472007F26CB /* brian_cs147_as_a_kid_prof_pic.jpg in Resources */,
 				ADFA4A7A1DF97D680069DCFD /* designer-cup.png in Resources */,
 				ADFA4AB41DF986400069DCFD /* edit_blue.png in Resources */,
 				ADFA4A831DF97D680069DCFD /* home.png in Resources */,
@@ -552,7 +568,7 @@
 				ADFA4AC31DF98B2B0069DCFD /* xwing_black.png in Resources */,
 				ADFA4AB71DF986400069DCFD /* edit_white.png in Resources */,
 				ADFA4ABF1DF988600069DCFD /* home_blue.png in Resources */,
-				AD6C56A41DF201850018C009 /* brian_cs147_as_a_kid_cropped.jpg in Resources */,
+				AD72E6721DFA7E8D00B258DD /* send_text_white_on_black.png in Resources */,
 				ADFA4A741DF97D680069DCFD /* circle.png in Resources */,
 				ADFA4A891DF97D680069DCFD /* pen-point-tip.png in Resources */,
 				ADFA4AA61DF9836F0069DCFD /* call_black.png in Resources */,
@@ -585,6 +601,7 @@
 				AD6C569E1DF1C53F0018C009 /* MatchProfileViewController.swift in Sources */,
 				AD6C56B61DF213410018C009 /* ProfileViewController.swift in Sources */,
 				AD56A08C1DDFBA5E00853062 /* ViewController.swift in Sources */,
+				ADCB03D01DFAD4FD007F26CB /* TransitionAnimationController.swift in Sources */,
 				AD56A08A1DDFBA5E00853062 /* AppDelegate.swift in Sources */,
 				AD45AF8E1DF6FDEC0050338B /* TextViewController.swift in Sources */,
 				AD9D08671DF7F53E00284123 /* CustomSegue.swift in Sources */,
@@ -602,6 +619,7 @@
 				AD9D08681DF7F53E00284123 /* CustomSegue.swift in Sources */,
 				AD6C56AB1DF205010018C009 /* CallScreenViewController.swift in Sources */,
 				AD6C56BB1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */,
+				ADCB03D11DFAD4FD007F26CB /* TransitionAnimationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +633,7 @@
 				AD9D08691DF7F53E00284123 /* CustomSegue.swift in Sources */,
 				AD6C56AC1DF205010018C009 /* CallScreenViewController.swift in Sources */,
 				AD6C56BC1DF215100018C009 /* PreviousConnectionsViewController.swift in Sources */,
+				ADCB03D21DFAD4FD007F26CB /* TransitionAnimationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,6 +764,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cs-147.Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -757,6 +777,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cs-147.Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -768,6 +789,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cs-147.TestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
 			};
 			name = Debug;
@@ -780,6 +802,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cs-147.TestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
 			};
 			name = Release;
@@ -791,6 +814,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cs-147.TestUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Test;
 			};
 			name = Debug;
@@ -802,6 +826,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cs-147.TestUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Test;
 			};
 			name = Release;
