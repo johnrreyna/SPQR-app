@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ijk-fi-iug">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ijk-fi-iug">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -323,9 +323,50 @@
             </objects>
             <point key="canvasLocation" x="2718" y="908"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="jHi-Do-vSK">
+            <objects>
+                <viewController id="Olr-VO-mbn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bpS-Xj-fTJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ydu-Vg-Sds"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k4b-9h-0lk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-12-08 at 9.40.46 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="6kA-lg-qym">
+                                <rect key="frame" x="0.0" y="0.0" width="400" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTa-tH-S87">
+                                <rect key="frame" x="164" y="294" width="72" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="687474703a2f2f7777772e323730746f77696e2e636f6d2f656c65637465642d6f6666696369616c732f696d67732f67656f6c6f636174652e706e67.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="LMu-7C-AIt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vup-ud-twe">
+                                <rect key="frame" x="213" y="243" width="52" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="686929-point-of-interest_interest_point_venue_spot_place_location_site-512.png"/>
+                                <connections>
+                                    <segue destination="weS-kf-umC" kind="show" id="kd7-yH-8dT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Qt-qN-68R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191.19999999999999" y="1543.1784107946028"/>
+        </scene>
         <!--Map View Controller-->
         <scene sceneID="j6w-0C-Z7r">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7jX-O3-oJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="osi-gK-mi7" customClass="MapViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Sho-e5-lvm"/>
@@ -351,9 +392,8 @@
                         <outlet property="toProfileButton" destination="TvD-xe-9bc" id="J6b-28-LBl"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7jX-O3-oJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="364" y="1000"/>
+            <point key="canvasLocation" x="476" y="888"/>
         </scene>
         <!--Previous Connections View Controller-->
         <scene sceneID="tAJ-dg-sWg">
@@ -686,6 +726,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="686929-point-of-interest_interest_point_venue_spot_place_location_site-512.png" width="512" height="512"/>
+        <image name="687474703a2f2f7777772e323730746f77696e2e636f6d2f656c65637465642d6f6666696369616c732f696d67732f67656f6c6f636174652e706e67.png" width="512" height="512"/>
+        <image name="Screen Shot 2016-12-08 at 9.40.46 PM.png" width="321" height="462"/>
         <image name="blueCircle.png" width="1200" height="1200"/>
         <image name="brian_cs147_as_a_kid_prof_pic.jpg" width="1027" height="740"/>
         <image name="brian_cs147_as_a_kid_square.jpg" width="1027" height="1027"/>
@@ -710,6 +753,7 @@
         <image name="xwing_black.png" width="1200" height="1200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="JIl-Nj-iBl"/>
+        <segue reference="LMu-7C-AIt"/>
+        <segue reference="kd7-yH-8dT"/>
     </inferredMetricsTieBreakers>
 </document>
