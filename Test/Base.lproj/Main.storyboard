@@ -39,6 +39,9 @@
                                 <state key="normal" title="&lt; find people">
                                     <color key="titleColor" red="0.42479277310000002" green="0.5168069542" blue="0.7704720223" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="osi-gK-mi7" kind="show" identifier="leftSegue" customClass="SegueFromLeft" customModule="Test" customModuleProvider="target" id="bw4-N3-pEm"/>
+                                </connections>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jLc-pO-562">
                                 <rect key="frame" x="-6" y="58" width="381" height="609"/>
@@ -320,10 +323,10 @@
             </objects>
             <point key="canvasLocation" x="2718" y="908"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="j6w-0C-Z7r">
             <objects>
-                <viewController id="osi-gK-mi7" sceneMemberID="viewController">
+                <viewController id="osi-gK-mi7" customClass="MapViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Sho-e5-lvm"/>
                         <viewControllerLayoutGuide type="bottom" id="Bow-D4-Pve"/>
@@ -331,12 +334,26 @@
                     <view key="view" contentMode="scaleToFill" id="Lyv-aE-mAK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TvD-xe-9bc">
+                                <rect key="frame" x="170" y="143" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="toPreviousPage:" destination="osi-gK-mi7" eventType="touchUpInside" id="uSP-Ox-zdE"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="JIl-Nj-iBl"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="toProfileButton" destination="TvD-xe-9bc" id="J6b-28-LBl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7jX-O3-oJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="495" y="1460"/>
+            <point key="canvasLocation" x="364" y="1000"/>
         </scene>
         <!--Previous Connections View Controller-->
         <scene sceneID="tAJ-dg-sWg">
@@ -692,4 +709,7 @@
         <image name="translate_white.png" width="1200" height="1200"/>
         <image name="xwing_black.png" width="1200" height="1200"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="JIl-Nj-iBl"/>
+    </inferredMetricsTieBreakers>
 </document>

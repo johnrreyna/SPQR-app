@@ -46,6 +46,7 @@
 		ADCB03D91DFB0B96007F26CB /* TransitionAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB03D71DFB0B96007F26CB /* TransitionAnimationController.swift */; };
 		ADCB03DA1DFB0B96007F26CB /* TransitionAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB03D71DFB0B96007F26CB /* TransitionAnimationController.swift */; };
 		ADE121081DFB102C004FDFCA /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE121071DFB102C004FDFCA /* SegueFromLeft.swift */; };
+		ADE1210A1DFB1D0A004FDFCA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE121091DFB1D0A004FDFCA /* MapViewController.swift */; };
 		ADFA4A691DF97D680069DCFD /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFA4A571DF97D680069DCFD /* blueCircle.png */; };
 		ADFA4A6A1DF97D680069DCFD /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFA4A571DF97D680069DCFD /* blueCircle.png */; };
 		ADFA4A6B1DF97D680069DCFD /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFA4A571DF97D680069DCFD /* blueCircle.png */; };
@@ -190,6 +191,7 @@
 		ADCB03D31DFB09B9007F26CB /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		ADCB03D71DFB0B96007F26CB /* TransitionAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimationController.swift; sourceTree = "<group>"; };
 		ADE121071DFB102C004FDFCA /* SegueFromLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
+		ADE121091DFB1D0A004FDFCA /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ADFA4A571DF97D680069DCFD /* blueCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueCircle.png; path = IconImages/blueCircle.png; sourceTree = "<group>"; };
 		ADFA4A581DF97D680069DCFD /* bubble-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bubble-chat.png"; path = "IconImages/bubble-chat.png"; sourceTree = "<group>"; };
 		ADFA4A591DF97D680069DCFD /* camera-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-photo.png"; path = "IconImages/camera-photo.png"; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 				ADCB03D31DFB09B9007F26CB /* NavigationControllerDelegate.swift */,
 				ADCB03D71DFB0B96007F26CB /* TransitionAnimationController.swift */,
 				ADE121071DFB102C004FDFCA /* SegueFromLeft.swift */,
+				ADE121091DFB1D0A004FDFCA /* MapViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -612,6 +615,7 @@
 				AD6C56B61DF213410018C009 /* ProfileViewController.swift in Sources */,
 				ADE121081DFB102C004FDFCA /* SegueFromLeft.swift in Sources */,
 				AD56A08C1DDFBA5E00853062 /* ViewController.swift in Sources */,
+				ADE1210A1DFB1D0A004FDFCA /* MapViewController.swift in Sources */,
 				AD56A08A1DDFBA5E00853062 /* AppDelegate.swift in Sources */,
 				AD45AF8E1DF6FDEC0050338B /* TextViewController.swift in Sources */,
 				AD9D08671DF7F53E00284123 /* CustomSegue.swift in Sources */,
