@@ -155,6 +155,8 @@
 		ADFA4AE51DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADFA4AE41DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg */; };
 		ADFA4AE61DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADFA4AE41DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg */; };
 		ADFA4AE71DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADFA4AE41DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg */; };
+		D47EFA9B1DFB3E8900773890 /* spqr-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D47EFA9A1DFB3E8900773890 /* spqr-logo.png */; };
+		D47EFA9D1DFB3EBC00773890 /* start_button.gif in Resources */ = {isa = PBXBuildFile; fileRef = D47EFA9C1DFB3EBC00773890 /* start_button.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +239,8 @@
 		ADFA4AD81DF9A2310069DCFD /* circle_dark_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle_dark_blue.png; path = IconImages/circle_dark_blue.png; sourceTree = "<group>"; };
 		ADFA4ADC1DF9A4660069DCFD /* map_pic.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pic.PNG; sourceTree = "<group>"; };
 		ADFA4AE41DF9AEBD0069DCFD /* brian_cs147_as_a_kid_square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brian_cs147_as_a_kid_square.jpg; sourceTree = "<group>"; };
+		D47EFA9A1DFB3E8900773890 /* spqr-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "spqr-logo.png"; path = "../../../../../../../Desktop/spqr-logo.png"; sourceTree = "<group>"; };
+		D47EFA9C1DFB3EBC00773890 /* start_button.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = start_button.gif; path = ../../../../../../../Desktop/start_button.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +296,8 @@
 				AD9D08661DF7F53E00284123 /* CustomSegue.swift */,
 				AD56A08B1DDFBA5E00853062 /* ViewController.swift */,
 				AD56A08D1DDFBA5E00853062 /* Main.storyboard */,
+				D47EFA9C1DFB3EBC00773890 /* start_button.gif */,
+				D47EFA9A1DFB3E8900773890 /* spqr-logo.png */,
 				AD56A0901DDFBA5E00853062 /* Assets.xcassets */,
 				AD56A0921DDFBA5E00853062 /* LaunchScreen.storyboard */,
 				ADFA4A9F1DF97D7D0069DCFD /* IconImages */,
@@ -525,7 +531,9 @@
 				ADFA4A781DF97D680069DCFD /* designer-cup.png in Resources */,
 				ADFA4A961DF97D680069DCFD /* suggestion_box_blue.png in Resources */,
 				ADFA4AB51DF986400069DCFD /* edit_white.png in Resources */,
+				D47EFA9D1DFB3EBC00773890 /* start_button.gif in Resources */,
 				AD56A0911DDFBA5E00853062 /* Assets.xcassets in Resources */,
+				D47EFA9B1DFB3E8900773890 /* spqr-logo.png in Resources */,
 				AD56A08F1DDFBA5E00853062 /* Main.storyboard in Resources */,
 				ADFA4A7E1DF97D680069DCFD /* headphone.png in Resources */,
 				ADFA4AD91DF9A2310069DCFD /* circle_dark_blue.png in Resources */,
