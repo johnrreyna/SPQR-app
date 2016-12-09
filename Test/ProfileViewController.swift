@@ -15,12 +15,12 @@ class ProfileViewController: UIViewController, UIViewControllerTransitioningDele
     @IBOutlet weak var profPicImageView: UIImageView!
     @IBOutlet weak var toMatchesButton: UIButton!
     @IBOutlet weak var interestScrollView: UIScrollView!
+    @IBOutlet weak var userNameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         interestScrollView.contentSize.height = 700
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -34,9 +34,9 @@ class ProfileViewController: UIViewController, UIViewControllerTransitioningDele
         }
     }
     
-    @IBAction func toMatchesButtonTapped(_ sender: Any) {
+    //@IBAction func toMatchesButtonTapped(_ sender: Any) {
          //self.navigationController?.popViewController(animated: true)
-    }
+    //}
     
     /*
      @IBAction func performSegue(_ sender: AnyObject) {

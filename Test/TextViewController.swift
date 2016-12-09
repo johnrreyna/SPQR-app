@@ -20,16 +20,24 @@ class TextViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        textScrollView.contentSize.height = 1000;
+        textScrollView.contentSize.height = 300;
         
         roundedMatchPic.layer.cornerRadius = roundedMatchPic.frame.size.width / 2
         roundedMatchPic.clipsToBounds = true
         
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        [typingField .becomeFirstResponder()]
     }
     
     @IBAction func revealKeyboard(_ sender: UITextField) {
         
+    }
+    
+    @IBAction func toPreviousPage(_ sender: Any) {
+        self.navigationController!.popViewController(animated: true)
     }
     
     @IBAction func toProfile(_ sender: Any) {

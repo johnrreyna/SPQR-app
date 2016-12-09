@@ -13,10 +13,15 @@ class MatchProfileViewController: UIViewController {
 
     @IBOutlet weak var toProfileButton: UIButton!
     @IBOutlet weak var matchProfileScrollView: UIScrollView!
+    @IBOutlet weak var backButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         matchProfileScrollView.contentSize.height = 700
+    }
+    
+    @IBAction func toPreviousPage(_ sender: Any) {
+        self.navigationController!.popViewController(animated: true);
     }
     
     @IBAction func toProfile(_ sender: Any) {

@@ -13,7 +13,15 @@ class PreviousConnectionsViewController: UIViewController, UIViewControllerTrans
     
     @IBOutlet weak var toProfileButton: UIButton!
     
+    @IBOutlet weak var roundedMatchPic: UIImageView!
     @IBOutlet weak var toMatchProfileButton: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        roundedMatchPic.layer.cornerRadius = roundedMatchPic.frame.size.width / 2
+        roundedMatchPic.clipsToBounds = true
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let controller = segue.destination as? MatchProfileViewController {

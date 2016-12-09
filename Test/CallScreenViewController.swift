@@ -13,6 +13,8 @@ class CallScreenViewController: UIViewController {
 
     @IBOutlet weak var suggestedPhrasesScrollView: UIScrollView!
     
+    @IBOutlet weak var endCallButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         UIApplication.shared.statusBarStyle = .lightContent
@@ -26,5 +28,8 @@ class CallScreenViewController: UIViewController {
         
         UIApplication.shared.statusBarStyle = UIStatusBarStyle.default
         
+    }
+    @IBAction func toPreviousPage(_ sender: Any) {
+        self.navigationController!.popViewController(animated: true)
     }
 }
