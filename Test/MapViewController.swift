@@ -21,6 +21,10 @@ class MapViewController: UIViewController {
                 self.navigationController!.popToViewController(aViewController, animated: false);
             }
         }
+    }
+    
+    @IBAction func manageViewControllerStack(_ sender: Any) {
+        
 
     }
 }

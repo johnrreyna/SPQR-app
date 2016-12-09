@@ -21,6 +21,13 @@ class ProfileViewController: UIViewController, UIViewControllerTransitioningDele
         super.viewDidLoad()
         
         interestScrollView.contentSize.height = 700
+        
+        let viewControllers: [UIViewController] = self.navigationController!.viewControllers
+        for aViewController in viewControllers {
+            if(aViewController is ProfileViewController){
+                self.navigationController!.popToViewController(aViewController, animated: false);
+            }
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
